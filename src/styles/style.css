@@ -1,0 +1,238 @@
+@import "reset.css";
+@import "fonts.css";
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner {
+    background: #F2F4F7;
+    display: flex;
+    flex-direction: column;
+    min-height: 900px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../assets/img/main-banner-rotate.png");
+    background-repeat: no-repeat;
+    background-position: right -200px center;
+}
+
+.header {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 1124px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    margin-top: 24px;
+}
+
+.header__logo {
+    width: 120px;
+    height: 24px;
+}
+
+.header__logo-img {
+    width: 100%;
+    height: 100%;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-item:last-of-type {
+    margin-right: 0;
+}
+
+.header__nav-item a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #101828;
+    text-decoration: none;
+}
+
+.header__contacts {
+    display: flex;
+}
+
+.header__phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #2D66EE;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.header__phone a {
+    text-decoration: none;
+}
+
+.header__phone_icon {
+    margin-left: 28px;
+    position: relative;
+}
+
+.header__phone_icon:before {
+    content: '';
+    background-image: url("../assets/svg/phone-logo.svg");
+    width: 14px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: -28px;
+}
+
+.header__email {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #2D66EE;
+    display: flex;
+    align-items: center;
+    margin-left: 64px;
+    position: relative;
+}
+
+.header__email a {
+    text-decoration: none;
+}
+
+.header__email:before {
+    content: '';
+    background-image: url("../assets/svg/email-logo.svg");
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 4px;
+    left: -30px;
+}
+
+.banner-info {
+    margin-top: 80px;
+}
+
+.banner-info__block {
+    width: 600px;
+    margin-bottom: 64px;
+}
+
+.banner-info__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 144%;
+    letter-spacing: 0.326451px;
+    color: #101828;
+    margin-bottom: 24px;
+}
+
+.banner-info__title span {
+    color: #306FF5;
+}
+
+.banner-info__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #101828;
+}
+
+.banner-info__form {
+    width: 676px;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 0 24px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+}
+
+.banner-info__h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    color: #101828;
+    margin-bottom: 32px;
+    width: 525px;
+}
+
+.feedback-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-form__button {
+    background: #2D66EE;
+    border-radius: 8px;
+    padding: 11px 24px;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+    cursor: pointer;
+    width: 132px;
+}
+
+.feedback-form__input {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.7px solid #D0D5DD;
+}
+
+.feedback-form__input label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.078px;
+    color: #667085;
+}
+
+.feedback-form__input input {
+    width: 224px;
+    padding: 8px 0;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #101828;
+}
+
+.feedback-form__input_icon {
+    position: relative;
+}
+
+.feedback-form__input_icon input {
+    width: 200px;
+    margin-left: 24px;
+}
+
+.feedback-form__input_icon label:before {
+    content: '';
+    background-image: url("../assets/img/kz.png");
+    width: 16px;
+    height: 30px;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

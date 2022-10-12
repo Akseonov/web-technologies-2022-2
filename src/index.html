@@ -1,18 +1,74 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="/src/assets/styles/style.css">
+    <title>Tgu</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<div class="test" style="color: blue">
-    test
-</div>
+    <div class="banner">
+        <div class="container">
+            <header class="header">
+                <div class="header__logo">
+                    <img class="header__logo-img" src="./assets/svg/logo.svg" alt="logo">
+                </div>
+                <nav class="header__nav">
+                    <div class="header__nav-item">
+                        <a href="#">Services</a>
+                    </div>
+                    <div class="header__nav-item">
+                        <a href="#">Media</a>
+                    </div>
+                    <div class="header__nav-item">
+                        <a href="#">Cases</a>
+                    </div>
+                    <div class="header__nav-item">
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="header__nav-item">
+                        <a href="#">Contacts</a>
+                    </div>
+                </nav>
+                <div class="header__contacts">
+                    <div class="header__phone_icon header__phone">
+                        <a href="tel:+7 (111) 111 11 11">+7 (111) 111 11 11</a>
+                    </div>
+                    <div class="header__phone">
+                        <a href="tel:+7 (111) 111 11 11">+7 (111) 111 11 11</a>
+                    </div>
+                    <div class="header__email">
+                        <a href="mailto:itcompany@mail.com">itcompany@mail.com</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="banner-info container">
+            <div class="banner-info__block">
+                <h1 class="banner-info__title">Development of <span>mobile applications</span> and <span>web services</span> of any complexity</h1>
+                <p class="banner-info__text">We create mobile applications for iOS, Android that transfer your business to mobile applications of your customers' devices</p>
+            </div>
+            <div class="banner-info__form">
+                <h4 class="banner-info__h4">Leave your contacts and we will call you back
+                    within 30 minutes</h4>
+                <form class="feedback-form">
+                    <div class="feedback-form__input feedback-form__input_icon">
+                        <label for="phone">Phone number</label>
+                        <input id="phone" type="text">
+                    </div>
+                    <div class="feedback-form__input">
+                        <label for="fullname">Full name</label>
+                        <input id="fullname" type="text">
+                    </div>
+                    <button class="feedback-form__button" type="submit">Get consultation</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
 
-<script src="index.js"></script>
+    </footer>
 </body>
 </html>
